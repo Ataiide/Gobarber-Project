@@ -1,6 +1,9 @@
 # Gobarber-Project
-Backend completo da aplicação Gobarber.
+Gobarber é sistema responsável por todo o gerenciamento de uma barbearia moderna.  
 
+# Executando a aplicação
+Para rodar o projeto será necessário instalar as seguintes aplicações:
 
-Tecnologias utilizadas:
-* 
+- Docker
+- NodeJs
+- Yarn (Opcional)
