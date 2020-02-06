@@ -1,6 +1,18 @@
 # Gobarber-Project
 Gobarber é sistema responsável por todo o gerenciamento de uma barbearia moderna.  
 
+# Tecnologias utilizadas
+
+- Principais tecnologias: Node.js, Express, Sequelize, PostgreSQL, Docker.
+
+- Ferramentas de autenticação e validação: bcrypt, JWT, yup.
+
+- Manipulação de datas: date-fns.
+
+- Manipulação de emails: nodemailer e handlebars.
+
+- Manipulação de filas: bee-queue e redis.
+
 # Dependências
 
     "bcryptjs": "^2.4.3",
@@ -42,3 +54,9 @@ Em seguida, acessaremos o **Postbird** com os dados abaixo:
 - Password: docker
 
 Logo após acessar o PostBird, no canto superior esquerdo, criaremos uma nova database chamada gobarber. 
+
+É necessário a execução do comando abaixo para criação da tabela
+
+```
+yarn sequelize db:migrate
+```
