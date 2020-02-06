@@ -21,11 +21,13 @@ Gobarber é sistema responsável por todo o gerenciamento de uma barbearia moder
 # Executando a aplicação
 
 Para rodar o projeto será necessário instalar as seguintes aplicações:
-- Docker
-- NodeJs
-- Yarn (Opcional)
-- Postbird -> para visualização dos dados estruturados na base
-- MongoDB Compass -> para visualização dos dados não estruturados na base
+- Docker;
+- NodeJs;
+- Yarn (Opcional);
+- Postbird -> para visualização dos dados estruturados na base;
+- MongoDB Compass -> para visualização dos dados não estruturados na base;
+- Sequelize;
+- Sequelize CLI;
 
 # Requisitos
 
